@@ -2,6 +2,7 @@
 name: Monthly Release Thread
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: 0 0 1 * * # Every 1st day of the month at 0000 – https://crontab.guru
 
